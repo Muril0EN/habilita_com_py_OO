@@ -27,7 +27,7 @@ class Exercicio:
         self._nome = nome
     def __str__(self):
         return f'{self._nome}'
-
+###################################################### Zona de testes #############################################################################
 #Área de testes
 #criando exercícios
 agachamento = Exercicio('Agachamento')
