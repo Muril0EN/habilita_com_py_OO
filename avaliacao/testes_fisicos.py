@@ -1,7 +1,3 @@
-
-#def calcula_status_treinamento_forca (tempo_ininterrupto_treinamento, experiencia_treinamento, tempo_destreinamento, media_status_forca):
-
-
 def calcula_forca_relativa(rm, peso_corporal):
     forca_relativa = rm / peso_corporal
     return forca_relativa
@@ -74,7 +70,6 @@ def classifica_status_forca(forca_relativa, lista_score):
     index = 0
     score_parcial = 0
     for score in lista_score:
-        print("Score: {} Força relativa: {}".format(score, forca_relativa))
         if (forca_relativa >= score):
             score_parcial = index
         index = index + 1
